@@ -2,6 +2,8 @@
 
 A real-time 3D simulation of a **7-DOF Kuka IIWA robot arm** sorting objects from a conveyor belt into bins using inverse kinematics and ballistic tossing. Built with PyBullet.
 
+![Simulation Screenshot](ss.png)
+
 ---
 
 ## What it does
@@ -14,6 +16,8 @@ Objects of different shapes (cubes, cylinders, spheres) spawn randomly on a movi
 - Post-run dashboard: joint trajectory plot + 3D end-effector path
 
 ---
+
+https://github.com/user-attachments/assets/a914d4c4-93e4-44ee-8c72-4304aa036a72
 
 ## File structure
 
