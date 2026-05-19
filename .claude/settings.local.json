@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import pybullet_data; import os; print\\(pybullet_data.getDataPath\\(\\)\\); print\\([f for f in os.listdir\\(pybullet_data.getDataPath\\(\\)\\) if 'kuka' in f.lower\\(\\)]\\)\")",
+      "Bash(find /home/jawad/Projects/digital-twin-kuka/venv -name \"*.urdf\" 2>/dev/null | grep -i kuka | head -10; find /home/jawad -name \"kuka*.urdf\" 2>/dev/null | head -10)",
+      "Read(//home/jawad/**)",
+      "Bash(pip show *)"
+    ]
+  }
+}
