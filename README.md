@@ -2,6 +2,9 @@
 
 A real-time 3D simulation of a **7-DOF Kuka IIWA robot arm** sorting objects from a conveyor belt into bins using inverse kinematics and ballistic tossing. Built with PyBullet.
 
+
+![Simulation Screenshot](ss.png)
+
 ---
 
 ## What it does
